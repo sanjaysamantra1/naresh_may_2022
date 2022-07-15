@@ -10,7 +10,7 @@ function App() {
     <div>
       <MyHeader></MyHeader>
       <Navbar></Navbar>
-      <Carousel></Carousel>
+      {/* <Carousel></Carousel> */}
       <Main></Main>
       <Footer></Footer>
     </div>

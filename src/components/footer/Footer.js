@@ -1,5 +1,12 @@
+import React from "react";
 import "./Footer.css";
 
-export function Footer() {
-  return <h1 className="footer">This is my Footer</h1>;
+export class Footer extends React.Component {
+  render() {
+    return (
+      <>
+        <h1 className="footer">This is footer...</h1>
+      </>
+    );
+  }
 }
