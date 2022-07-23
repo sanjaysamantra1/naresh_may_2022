@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function CounterDemo2() {
+  console.log("render called...");
   // const [val,setVal] = useState(Initial value) hook - JS function
   const [count, setCount] = useState(0);
 
