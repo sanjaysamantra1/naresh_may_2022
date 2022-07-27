@@ -11,6 +11,7 @@ import ClickCounter from "../HOC/ClickCounter";
 import ClickCounterWithHOC from "../HOC/ClickCounterWithHOC";
 import HoverCounter from "../HOC/HoverCounter";
 import HoverCounterWithHOC from "../HOC/HoverCounterWithHOC";
+import LifecycleDemo1 from "../LifeCycleHooks/LifecycleDemo1";
 import ListDemo1 from "../ListItems/ListDemo1";
 import ListDemo2 from "../ListItems/ListDemo2";
 import ListDemo3 from "../ListItems/ListDemo3";
@@ -66,8 +67,9 @@ export default class Main extends React.Component {
         <br></br>
         =============================================
         <HoverCounter></HoverCounter> */}
-        <ClickCounterWithHOC></ClickCounterWithHOC>
-        <HoverCounterWithHOC></HoverCounterWithHOC>
+        {/* <ClickCounterWithHOC></ClickCounterWithHOC>
+        <HoverCounterWithHOC></HoverCounterWithHOC> */}
+        <LifecycleDemo1 color={"blue"}></LifecycleDemo1>
       </div>
     );
   }
