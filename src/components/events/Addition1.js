@@ -18,7 +18,7 @@ export default function Addition1() {
   return (
     <>
       <div>Addition1</div>
-      <input onChange={(e) => setNum1(e.target.value)} />
+      <input onChange={(e) => setNum1(e.target.value)} /> 
       <br />
       <input onChange={(e) => setNum2(e.target.value)} />
       <br />

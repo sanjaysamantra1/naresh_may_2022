@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -21,56 +22,24 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavLink to="/home" className="nav-link">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
+              <NavLink to="/aboutus" className="nav-link">
+                About us
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link disabled"
-                href="#"
-                tabIndex="-1"
-                aria-disabled="true"
-              >
-                Disabled
-              </a>
+              <NavLink to="/careers" className="nav-link">
+                Careers
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/productlist" className="nav-link">
+                Products
+              </NavLink>
             </li>
           </ul>
           <form className="d-flex">
